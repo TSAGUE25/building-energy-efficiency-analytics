@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environnements virtuels
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données sensibles (ne jamais committer de vraies données)
+data/raw/
+data/confidential/
+*.xlsx
+*.xls
+
+# Figures générées (garder les exemples, ignorer les mass-génération)
+figures/*.png
+!figures/examples/
+
+# Rapports générés
+reports/*.md
+!reports/energy_audit_report_sample.md

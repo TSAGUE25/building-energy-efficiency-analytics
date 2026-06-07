@@ -1,0 +1,21 @@
+id_batiment,nom_batiment,type_usage,ville,region,surface_m2,annee_construction,etiquette_dpe,type_chauffage,isolation,nb_occupants_moyen,renovation_realisee,annee_renovation
+B001,Tour Centrale,Bureau,Paris,Ile-de-France,8500,1978,E,Gaz,Mauvaise,320,0,
+B002,Résidence Les Pins,Logement collectif,Lyon,Auvergne-Rhône-Alpes,3200,1985,D,Gaz,Moyenne,145,1,2019
+B003,École Jean Moulin,École,Bordeaux,Nouvelle-Aquitaine,2100,1968,F,Fioul,Mauvaise,280,0,
+B004,Entrepôt Nord,Entrepôt,Lille,Hauts-de-France,12000,1992,C,Gaz,Bonne,35,0,
+B005,Hôtel Bellevue,Hôtel,Nice,PACA,4500,2005,C,Pompe à chaleur,Bonne,120,0,
+B006,Gymnase Municipal,Sport,Strasbourg,Grand Est,1800,1975,G,Fioul,Mauvaise,95,0,
+B007,Mairie Annexe,Bureau,Rennes,Bretagne,1200,1960,G,Fioul,Mauvaise,42,0,
+B008,Centre Commercial Riviera,Commerce,Nice,PACA,15000,2001,D,Électrique,Moyenne,380,0,
+B009,Résidence Étoile,Logement collectif,Nantes,Pays de la Loire,2800,2015,B,Pompe à chaleur,Bonne,98,0,
+B010,Lycée Victor Hugo,École,Besançon,Bourgogne-Franche-Comté,5500,1972,E,Gaz,Mauvaise,520,1,2018
+B011,Siège Social Nexia,Bureau,Paris,Ile-de-France,6200,2018,A,Pompe à chaleur,Bonne,240,0,
+B012,Clinique Saint-Jacques,Hôpital,Toulouse,Occitanie,9800,1988,D,Gaz,Moyenne,310,0,
+B013,Dépôt Logistique Est,Entrepôt,Metz,Grand Est,18000,1998,C,Gaz,Moyenne,55,0,
+B014,École Primaire Pasteur,École,Rouen,Normandie,900,1963,F,Fioul,Mauvaise,150,0,
+B015,Immeuble Vert,Bureau,Bordeaux,Nouvelle-Aquitaine,3800,2020,A,Pompe à chaleur,Bonne,160,0,
+B016,Résidence du Parc,Logement collectif,Grenoble,Auvergne-Rhône-Alpes,4100,1980,E,Gaz,Mauvaise,185,1,2021
+B017,Salle Polyvalente,Sport,Caen,Normandie,1400,1982,E,Électrique,Moyenne,75,0,
+B018,Centre de Tri,Entrepôt,Marseille,PACA,9500,1995,D,Électrique,Moyenne,42,0,
+B019,Crèche Les Lutins,École,Montpellier,Occitanie,650,2010,B,Pompe à chaleur,Bonne,48,0,
+B020,Tour Horizon,Bureau,La Défense,Ile-de-France,22000,1995,D,Gaz,Moyenne,850,0,
