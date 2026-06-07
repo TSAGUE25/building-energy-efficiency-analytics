@@ -1,39 +1,127 @@
-# Python
+# ============================================================
+# Python — bytecode et packaging
+# ============================================================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.egg
 *.egg-info/
 dist/
 build/
 .eggs/
+*.whl
+MANIFEST
 
+# ============================================================
 # Environnements virtuels
+# ============================================================
 venv/
+.venv/
 env/
-.env
+.env/
+ENV/
+env.bak/
+.python-version
 
+# ============================================================
+# Variables d'environnement — secrets (ne jamais committer)
+# ============================================================
+.env
+.env.local
+.env.*.local
+secrets.yaml
+credentials.json
+
+# ============================================================
 # Jupyter
+# ============================================================
 .ipynb_checkpoints/
 *.ipynb
 
+# ============================================================
 # IDE
+# ============================================================
 .vscode/
 .idea/
 *.code-workspace
+*.swp
+*.swo
+*~
 
+# ============================================================
 # OS
+# ============================================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Données sensibles (ne jamais committer de vraies données)
+# ============================================================
+# Données — ne jamais committer de données réelles ou sensibles
+# ============================================================
 data/raw/
 data/confidential/
+data/private/
+*.csv.gz
+# Les données simulées dans data_sample/ sont committées intentionnellement
+
+# ============================================================
+# Fichiers bureautiques et formats binaires volumineux
+# ============================================================
 *.xlsx
 *.xls
+*.xlsm
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.feather
+*.arrow
 
-# Figures générées (garder les exemples, ignorer les mass-génération)
-figures/*.png
-!figures/examples/
+# ============================================================
+# Modèles ML sérialisés — trop lourds pour Git standard
+# ============================================================
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
 
-# Rapports générés
-reports/*.md
-!reports/energy_audit_report_sample.md
+# ============================================================
+# Figures générées — committées car référencées dans README
+# Décommenter pour les ignorer localement pendant le développement
+# ============================================================
+# figures/*.png
+
+# ============================================================
+# Rapports générés — committé pour la démo portfolio
+# ============================================================
+# reports/*.md
+
+# ============================================================
+# Logs, caches et fichiers temporaires
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================================
+# MLflow, DVC, W&B
+# ============================================================
+mlruns/
+.dvc/
+wandb/
