@@ -310,6 +310,17 @@ viz.plot_savings_potential(analyzer.savings_potential())
 
 ---
 
+## Ce projet démontre
+
+- La capacité à appliquer une **méthodologie d'audit énergétique** complète : calcul IPE, normalisation DJU, détection IQR, sans seuil arbitraire
+- La maîtrise de **scikit-learn** dans un contexte métier réglementé (DPE, décret tertiaire) : régression linéaire, LabelEncoder, R²=0.71
+- La **quantification du ROI** d'une rénovation en MWh/an et €/an — directement exploitable pour un plan d'investissement
+- La détection robuste d'**énergivores via la méthode IQR** : insensible aux distributions asymétriques, applicable sur parc hétérogène
+- Un pipeline **automatisable** : changer le CSV suffit pour auditer tout nouveau parc (collectivité, foncière, industriel)
+- La **traduction de données techniques** (kWh, DJU, étiquette DPE) en décision de gestion d'actifs immobiliers
+
+---
+
 ## 13. Contributors
 
 | Nom | Rôle | GitHub |
