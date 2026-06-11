@@ -331,5 +331,5 @@ viz.plot_savings_potential(analyzer.savings_potential())
 
 *Auteur : Emmanuel TSAGUE — Data Scientist / Data Analyst*
 *Formation : DataScientest | Domaines : Énergie · Industrie · Finance · Performance opérationnelle*
-*Contact : emmatsague@yahoo.fr*
+*Contact : emmatsague@yahoo.fr | [LinkedIn](https://www.linkedin.com/in/emmanuel-tsague-114295414)*
 *Données : entièrement simulées — aucune donnée réelle ou confidentielle*
