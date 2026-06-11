@@ -1,4 +1,4 @@
-# Building Energy Efficiency Analytics
+﻿# Building Energy Efficiency Analytics
 
 > Analyse de l'efficacité énergétique d'un parc de 20 bâtiments pour identifier les leviers de réduction de consommation.  
 > **Stack :** Python · pandas · scikit-learn · matplotlib · seaborn · Power BI
@@ -575,6 +575,13 @@ Les DJU quantifient le besoin en chauffage. Sans correction, un bâtiment à Lil
 |--------|------|
 | Power BI Call Center | [powerbi-callcenter-portfolio](https://github.com/TSAGUE25/powerbi-callcenter-portfolio) |
 | Data Quality Audit | [data-quality-audit-framework](https://github.com/TSAGUE25/data-quality-audit-framework) |
+
+
+## Contributors
+
+| Nom | Role | GitHub |
+|-----|------|--------|
+| **TSAGUE Emmanuel** | Data Scientist - auteur principal | [@TSAGUE25](https://github.com/TSAGUE25) |
 
 ---
 
